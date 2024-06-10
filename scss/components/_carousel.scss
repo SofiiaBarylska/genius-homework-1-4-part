@@ -1,0 +1,61 @@
+/* Carousel */
+/*.carousel-button-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    background-color: transparent;
+    border: 1px solid var(--color-primary-dark-blue);
+    border-radius: 50%;
+}
+.carousel-arrow-1{
+    fill: var(--color-primary-dark-blue);
+}
+.carousel-button-1:hover{
+    background-color: var(--color-primary-blue);
+}
+.carousel-button-1:hover .carousel-arrow-1{
+    background-color: var(--color-primary-white); 
+}*/
+.carousel-button {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    padding: 0;
+    background-color: transparent;
+    border: 1px solid var(--color-primary-dark-blue);
+    cursor: pointer;
+}
+
+.carousel-arrow {
+    fill: var(--color-primary-dark-blue);
+}
+
+.carousel-button:hover {
+    background-color: var(--color-primary-blue);
+
+}
+
+.carousel-arrow:hover {
+    fill: var(--color-primary-white);
+}
+
+.format-button {
+display: none;
+
+@media screen and (min-width: $bp-tablet){
+    display: flex;
+}
+
+}
+
+
+/*.carousel-button.next{
+ transform: rotate(180deg);
+} */

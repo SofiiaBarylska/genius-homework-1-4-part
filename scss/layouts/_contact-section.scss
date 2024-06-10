@@ -1,0 +1,70 @@
+.contact-section {
+    padding-bottom: 0;
+    padding-top: 0;
+
+    @media screen and (min-width: $bp-tablet) {
+    padding-top: 48px;
+    padding-bottom: 96px;
+    }
+}
+
+.free-consultation {
+    font-weight: 600;
+    color: var(--color-primary-white);
+    font-size: 22px;
+    line-height: 25.8px;
+    text-align: center; 
+    max-width: 100%;
+    max-height: 482px;
+    background: #011C44;
+    padding: 48px 56px;
+    border-radius: 32px;
+
+    @media screen and (min-width: $bp-tablet) { 
+    max-width: 422px;
+    }
+}
+
+.free-consultation span {
+    color: var(--color-primary-blue);
+    font-size: 22px;
+    line-height: 25.8px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.form-field {
+    margin-bottom: 16px;
+    position: relative;
+    display: flex;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 24px;
+
+    @media screen and (min-width: $bp-tablet){
+        flex-direction: row;
+        gap: 32px;
+    }
+}
+
+.contact-map {
+    border-radius: 0;
+    height: 232px;
+    margin: 0 -24px;
+
+    @media screen and (min-width: $bp-tablet) {
+    width: 320px;
+    height: 482px;
+    margin: auto;
+    border-radius: 32px;
+    }
+
+    @media screen and (min-width: $bp-desktop) {
+    width: 605px;
+    height: 482px;
+        }
+
+}

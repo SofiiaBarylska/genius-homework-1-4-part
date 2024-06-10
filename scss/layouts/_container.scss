@@ -1,0 +1,16 @@
+.section {
+    padding: 20px 0;
+
+    @media screen and (min-width: $bp-tablet) {
+    padding: 48px 0;
+    }
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 24px;
+    position: relative;
+}

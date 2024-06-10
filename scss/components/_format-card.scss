@@ -1,0 +1,26 @@
+.formats-slider {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+
+}
+.formats-container {
+  overflow: hidden;  
+}
+.formats-list {
+    margin-bottom: 32px;
+}
+
+
+
+.format-card {
+    border-radius: 4px 120px / 120px;
+    padding: 372px 77px 32px 115px;
+    height: 456px;
+    transition: transform 0.3s;
+}
+
+.format-card:hover {
+    transform: scale(1.05);
+
+}

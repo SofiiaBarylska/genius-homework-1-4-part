@@ -1,0 +1,43 @@
+.people-choose-us {
+    position: relative;
+    top: 150px;
+    z-index: 1;
+    margin-bottom: 120px;
+
+    @media screen and (min-width: $bp-desktop) {
+        margin-bottom: 48px;
+    }
+}
+
+.reason {
+    color: #000;
+    text-align: center;
+    line-height: 24px;
+    margin: 0;
+}
+.reason-block {
+    padding: 24px 32px;
+}
+
+.reason-block img {
+    margin: 0 auto;
+    display: block;
+}
+
+/* background for blocks*/
+.why-people-choose-us {
+    position: relative;
+}
+
+.why-people-choose-us:before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url('../images/background.png');
+    height: 740px;
+    background-position: top;
+    background-repeat: no-repeat;
+}

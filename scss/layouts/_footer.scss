@@ -1,0 +1,133 @@
+.footer {
+    text-align: center;
+    position: relative;
+    background-color: var(--color-primary-dark-blue);
+    padding: 56px 0px;
+
+    @media screen and (min-width: $bp-tablet) {
+            text-align: left;
+        }
+
+    &::after {
+        display: none;
+
+        @media screen and (min-width: $bp-tablet) {
+            display: block;
+            width: 247px;
+            height: 152px;
+            position: absolute;
+            background-image: url("../images/cosmetic.png");
+            content: '';
+            bottom: 0;
+            right: 0;
+        }
+        }
+    &__container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            @media screen and (min-width: $bp-tablet) {
+                    flex-basis: 50%;
+                    flex-direction: row;
+                }
+            
+        }
+}
+
+
+
+.footer-nav,
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @media screen and (min-width: $bp-tablet) {
+    flex-basis: 50%;
+    flex-direction: row;
+    }
+}
+
+/*Social icon */
+.social-icon {
+    width: 32px;
+    height: 32px;
+    @media screen and (min-width: $bp-tablet) {
+    width: 42px;
+    height: 42px;
+    }
+}
+
+.icons {
+    margin-right: 24px;
+}
+
+/* Footer address */
+.address-icon {
+
+    fill: var(--color-primary-white);
+    stroke: red;
+}
+
+.footer-menu a,
+.footer-info a {
+    color: var(--color-primary-white);
+    font-size: 16px;
+    line-height: 18.8px;
+    margin-bottom: 16px;
+    transition: transform 0.3s;
+}
+
+.footer-menu a:hover {
+    transform: scale(1.05);
+}
+
+.footer-info a:hover {
+    transform: scale(1.05);
+}
+
+.footer-menu,
+.footer-logo {
+    flex-grow: 1;
+}
+
+.footer-address{
+    display: none;
+    @media screen and (min-width: $bp-tablet) {
+        flex-grow: 1;
+        display: block;
+        }
+
+}
+
+.footer-address-information {
+    display: none;
+    
+    @media screen and (min-width: $bp-desktop) {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+        }
+}
+
+/* Footer security data */
+.security-data {
+    color: #747272;
+    font-size: 13px;
+    line-height: 15.23px;
+}
+.security-data-mobile,
+.security-info-mobile {
+    display: block;
+
+    @media screen and (min-width: $bp-desktop) {
+        display: none;
+    }
+}
+
+.security-data-mobile{
+        color: #747272;
+        font-size: 13px;
+        line-height: 15.23px;
+    }
